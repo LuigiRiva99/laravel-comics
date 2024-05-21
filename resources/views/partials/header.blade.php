@@ -1,12 +1,12 @@
 <header>
   <div class="container">
-    <div>
-      <ul>
+    <div class="text-center" >
+      <ul class="list-unstyled d-flex gap-3 justify-content-center">
         <li>
-          <a href="">Home</a>
+          <a href="{{ route('home') }}">Home</a>
         </li>
         <li>
-          <a href="">Blog</a>
+          <a href="{{ route('comics') }}">Comics</a>
         </li>
         <li>
           <a href="">About</a>
