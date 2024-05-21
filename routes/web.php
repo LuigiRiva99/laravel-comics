@@ -20,3 +20,21 @@ Route::get('/', function () {
 Route::get('/comics', function () {
     return view('comics');
 })->name('comics');
+
+Route::get('/blog', function () {
+    return view('blog');
+})->name('blog');
+
+//info folder
+Route::get('/chi-siamo', function () {
+    return view('info.chi-siamo');
+})->name('chi-siamo');
+
+Route::get('/privacy', function () {
+    return view('info.privacy');
+})->name('privacy');
+
+Route::get('/contatti', function () {
+    return view('info.contatti');
+})->name('contatti');
+
