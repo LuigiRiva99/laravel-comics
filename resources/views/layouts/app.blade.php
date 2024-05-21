@@ -7,14 +7,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    @include('partials.header') 
 
-    <main>
-        <div class="container text-center">
-            @yield('content')
-        </div>
-    </main>
+    <div class="d-flex flex-column vh-100">
+        @include('partials.header') 
 
-    @include('partials.footer')
+        <main class="flex-grow-1">
+            <div class="container text-center">
+                @yield('content')
+            </div>
+        </main>
+
+        @include('partials.footer')
+    </div>
 </body>
 </html>
