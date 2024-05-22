@@ -16,17 +16,3 @@
     </div>
 </footer>
 
-<style>
-
-footer{
-    background-color: #212529;
-    color: white;
-}
-
-.footer_nav{
-    height: 100px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-</style>

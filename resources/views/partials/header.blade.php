@@ -39,25 +39,3 @@
         </div>
     </div>
 </header>
-
-<style>
-p{
-    margin-bottom: 0;
-}    
-
-header{
-    background-color: #265078;
-    color: white;
-}
-
-a{
-    color: white
-}
-
-.header_nav{
-    height: 100px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-</style>
