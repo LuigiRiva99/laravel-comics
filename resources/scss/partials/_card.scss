@@ -1,0 +1,15 @@
+
+.ms_card{
+    height: 400px !important;
+    .card-image{
+        height: 250px;
+        object-fit: contain;
+    }
+    .card-body{
+        overflow: hidden;
+        &:hover{
+            overflow-y: scroll
+        }
+    }
+}
+

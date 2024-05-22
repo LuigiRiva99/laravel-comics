@@ -1,11 +1,21 @@
 footer{
     background-color: #212529;
     color: white;
-}
+    margin-top: 40px;
 
-.footer_nav{
-    height: 100px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+    .footer_nav{
+        height: 100px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+
+        a{
+            color: white !important;
+            text-decoration: none;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
 }
