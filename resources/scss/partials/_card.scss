@@ -1,14 +1,22 @@
-
-.ms_card{
-    height: 400px !important;
-    .card-image{
-        height: 250px;
-        object-fit: contain;
-    }
-    .card-body{
-        overflow: hidden;
+.card-section{
+    background-color: #1C1C1C;
+    .ms_card{
+        height: 400px !important;
+        background-color: transparent;
+        color: white;
+        border: none;
         &:hover{
-            overflow-y: scroll
+            box-shadow: 1px 1px 2px 2px white ;
+        }
+        .card-image{
+            height: 250px;
+            // object-fit: contain;
+        }
+        .card-body{
+            overflow: hidden;
+            &:hover{
+                overflow-y: scroll
+            }
         }
     }
 }

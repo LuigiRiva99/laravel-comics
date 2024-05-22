@@ -2,3 +2,9 @@
 @use './partials/_footer';
 @use './partials/_card';
 @import '~bootstrap/scss/bootstrap';
+
+main{
+    background-color:  #1C1C1C;
+    color: white;
+    padding-bottom: 40px;
+}
